@@ -1,0 +1,20 @@
+body {
+  	margin: 40px;
+}
+#Calculator {
+  	display: grid;
+  	grid-template-rows: 150px 150px 150px 100px;
+  	grid-template-columns: : 150px 150px 150px 100px;
+  	grid-gap: 10px;
+  	background-color: #ccc;
+  	color: inherit;
+}
+input {
+  	background-color: #444;
+  	color: #fff;
+  	border-radius: 50px;
+	padding: 35px;
+ 	font-size: 150%;
+ 	width: 100px; 
+  	height: 100px;
+}

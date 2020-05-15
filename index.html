@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title> Hesap Makinesi </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+	<div id="Calculator">
+		<FORM NAME="Calculator">
+			<INPUT TYPE="text" NAME="Input" Size="20" VALUE="0">
+		<br>
+			<INPUT TYPE="button" NAME="yedi" VALUE=" 7 " OnClick="sayiyiGoster(7)">
+			<INPUT TYPE="button" NAME="sekiz" VALUE=" 8 " OnClick="sayiyiGoster(8)">
+			<INPUT TYPE="button" NAME="dokuz" VALUE=" 9 " OnClick="sayiyiGoster(9)">
+			<INPUT TYPE="button" NAME="carpi" VALUE=" x " OnClick="carpma()">
+		<br>
+			<INPUT TYPE="button" NAME="dort" VALUE=" 4 " OnClick="sayiyiGoster(4)">
+			<INPUT TYPE="button" NAME="bes" VALUE=" 5 " OnClick="sayiyiGoster(5)">
+			<INPUT TYPE="button" NAME="alti" VALUE=" 6 " OnClick="sayiyiGoster(6)">
+			<INPUT TYPE="button" NAME="eksi" VALUE=" - " OnClick="cikarma()">
+		<br>
+			<INPUT TYPE="button" NAME="bir" VALUE=" 1 " OnClick="sayiyiGoster(1)">
+			<INPUT TYPE="button" NAME="iki" VALUE=" 2 " OnClick="sayiyiGoster(2)">
+			<INPUT TYPE="button" NAME="uc" VALUE=" 3 " OnClick="sayiyiGoster(3)">
+			<INPUT TYPE="button" NAME="arti" VALUE=" + " OnClick="toplama()">
+		<br>
+			<INPUT TYPE="button" NAME="temizle" VALUE=" C " OnClick="Calculator.Input.value = '0'">
+			<INPUT TYPE="button" NAME="sifir" VALUE=" 0 " OnClick="sayiyiGoster(0)">
+			<INPUT TYPE="button" NAME="esittir" VALUE=" = " OnClick="esittirIslemi()">
+			<INPUT TYPE="button" NAME="bolu" VALUE=" / " OnClick="bolme()">
+		</FORM>
+	</div>
+</body>
+</html>
